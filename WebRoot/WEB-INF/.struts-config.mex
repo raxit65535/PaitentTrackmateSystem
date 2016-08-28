@@ -1,0 +1,958 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowViewLayout Version="1.2">
+  <StrutsActivity path="/paitentRegistration.do" location="50,50" dimension="312,96" />
+  <StrutsActivity path="/paitentLogin.do" location="950,50" dimension="279,96" />
+  <StrutsActivity path="/forgotPass.do" location="15,255" dimension="270,96" />
+  <StrutsActivity path="/resetPass.do" location="180,495" dimension="263,96" />
+  <StrutsActivity path="/adminLogin.do" location="225,630" dimension="278,96" />
+  <StrutsActivity path="/doctoradd.do" location="950,550" dimension="237,96" />
+  <StrutsActivity path="/displayHeli.do" location="50,850" dimension="240,96" />
+  <StrutsActivity path="/insuranceTable.do" location="950,950" dimension="264,96" />
+  <StrutsActivity path="/search_viewData.do" location="180,1005" dimension="300,96" />
+  <StrutsActivity path="/dataEdit.do" location="1550,750" dimension="228,96" />
+  <StrutsActivity path="/displayDoct.do" location="1290,1320" dimension="244,96" />
+  <StrutsActivity path="/editDoct.do" location="1250,1550" dimension="226,96" />
+  <StrutsActivity path="/doctorPrescription1.do" location="-285,1680" dimension="287,96" />
+  <StrutsActivity path="/doctorPrescription2.do" location="150,1680" dimension="287,96" />
+  <StrutsActivity path="/doctorLogin.do" location="1260,1860" dimension="248,96" />
+  <StrutsActivity path="/viewHistory.do" location="1890,1785" dimension="245,96" />
+  <StrutsActivity path="/searchHistory.do" location="1515,1965" dimension="255,96" />
+  <StrutsActivity path="/claimRequests.do" location="2100,300" dimension="259,96" />
+  <StrutsActivity path="/search_ClaimRequests.do" location="1755,330" dimension="299,96" />
+  <StrutsActivity path="/claimDetail1.do" location="1605,-15" dimension="248,96" />
+  <StrutsActivity path="/search_ClaimDetali1.do" location="1950,-30" dimension="288,96" />
+  <StrutsActivity path="/claimDetail2.do" location="1995,795" dimension="248,96" />
+  <StrutsActivity path="/search_ClaimDetail2.do" location="2280,795" dimension="288,96" />
+  <StrutsActivity path="/claimDetail3.do" location="2160,1785" dimension="248,96" />
+  <StrutsActivity path="/search_ClaimDetail3.do" location="2355,1905" dimension="288,96" />
+  <StrutsActivity path="/claimRequest.do" location="2400,1380" dimension="257,96" />
+  <StrutsActivity path="/iClaimDetails1.do" location="-210,2040" dimension="259,96" />
+  <StrutsActivity path="/search_IClaimDetails1.do" location="120,2040" dimension="299,96" />
+  <StrutsActivity path="/iClaimDetails2.do" location="900,2190" dimension="259,96" />
+  <StrutsActivity path="/search_ClaimDetails2.do" location="1250,2150" dimension="296,96" />
+  <StrutsActivity path="/search_ClaimRequest.do" location="2745,1365" dimension="297,96" />
+  <StrutsActivity path="/admitedPaitent.do" location="2340,2235" dimension="264,96" />
+  <StrutsActivity path="/search_AdmitedPaitent.do" location="1965,2250" dimension="304,96" />
+  <StrutsActivity path="/insuranceLogin.do" location="435,2385" dimension="265,96" />
+  <StrutsActivity path="/appointmentRequest.do" location="-360,2430" dimension="295,96" />
+  <StrutsActivity path="/search_AppointmentRequest.do" location="-30,2430" dimension="335,96" />
+  <StrutsActivity path="/doctorSchedule.do" location="2025,2685" dimension="266,96" />
+  <StrutsActivity path="/search_DoctorSchedule.do" location="1605,2685" dimension="306,96" />
+  <StrutsActivity path="/dischargeHistory.do" location="3350,1150" dimension="302,96" />
+  <StrutsActivity path="/searchDischargeHistory.do" location="3350,1550" dimension="337,96" />
+  <StrutsActivity path="/appointmentHistory.do" location="3350,2350" dimension="321,96" />
+  <StrutsActivity path="/search_appointmentHistory.do" location="2450,2550" dimension="359,96" />
+  <StrutsActivity path="/paitent/LOGINFAILURE.jsp" location="2550,1080" dimension="174,51" />
+  <StrutsActivity path="/paitent/paitentLogin.jsp" location="420,180" dimension="162,51" />
+  <StrutsActivity path="/paitent/paitentRegistration.jsp" location="650,50" dimension="195,51" />
+  <StrutsActivity path="/paitent/paitenthome.jsp" location="570,255" dimension="163,51" />
+  <StrutsActivity path="/paitent/forgotPass.jsp" location="765,360" dimension="151,51" />
+  <StrutsActivity path="/paitent/resetPass.jsp" location="540,525" dimension="143,51" />
+  <StrutsActivity path="/admin/LOGINFAILURE.jsp" location="2750,2350" dimension="171,51" />
+  <StrutsActivity path="/admin/AdminHome.jsp" location="-45,645" dimension="161,51" />
+  <StrutsActivity path="/admin/adminLogin.jsp" location="645,660" dimension="156,51" />
+  <StrutsActivity path="/admin/ALLFAILURE.jsp" location="3050,1750" dimension="156,51" />
+  <StrutsActivity path="/admin/doctoradd.jsp" location="950,750" dimension="147,51" />
+  <StrutsActivity path="/admin/displayDoct.jsp" location="650,1450" dimension="154,51" />
+  <StrutsActivity path="/admin/displayHeli.jsp" location="350,850" dimension="150,51" />
+  <StrutsActivity path="/insurance_table/ALLFAILURE.jsp" location="1250,1750" dimension="204,51" />
+  <StrutsActivity path="/insurance_table/insuranceTable.jsp" location="645,1020" dimension="220,51" />
+  <StrutsActivity path="/insurance_table/search_viewData.jsp" location="180,1185" dimension="227,51" />
+  <StrutsActivity path="insurance_table/viewDataEntryData.jsp" location="-135,1155" dimension="234,51" />
+  <StrutsActivity path="/insurance_table/ALLFAILIRE.jsp" location="1550,1750" dimension="199,51" />
+  <StrutsActivity path="/insurance_table/Displaytag_search_viewData.jsp" location="615,1335" dimension="287,51" />
+  <StrutsActivity path="insurance_table/search_viewData.jsp" location="180,1185" dimension="222,51" />
+  <StrutsActivity path="/insurance_table/viewDataEntryData.jsp" location="1250,1150" dimension="239,51" />
+  <StrutsActivity path="insurance_table/dataEdit.jsp" location="1550,950" dimension="178,51" />
+  <StrutsActivity path="/admin/searchDoctorSuccess.jsp" location="350,1550" dimension="203,51" />
+  <StrutsActivity path="admin/displayDoct.jsp" location="915,1635" dimension="149,51" />
+  <StrutsActivity path="admin/editDoct.jsp" location="1550,1550" dimension="132,51" />
+  <StrutsActivity path="/doctor/ALLFAILURE.jsp" location="950,1950" dimension="157,51" />
+  <StrutsActivity path="/doctor/doctorPrescription2.jsp" location="825,1785" dimension="197,51" />
+  <StrutsActivity path="doctor/doctorPrescription1.jsp" location="-60,1845" dimension="192,51" />
+  <StrutsActivity path="/doctor/home.jsp" location="555,1950" dimension="124,51" />
+  <StrutsActivity path="doctor/doctorPrescription2.jsp" location="375,1860" dimension="192,51" />
+  <StrutsActivity path="/doctor/LOGINFAILURE.jsp" location="2750,1950" dimension="172,51" />
+  <StrutsActivity path="doctor/doctorLogin.jsp" location="1305,1980" dimension="153,51" />
+  <StrutsActivity path="/doctor/searchHistory.jsp" location="1850,1150" dimension="165,51" />
+  <StrutsActivity path="doctor/viewHistory.jsp" location="1830,1980" dimension="150,51" />
+  <StrutsActivity path="/doctor/DisplayTagSearchHistory.jsp" location="1850,1350" dimension="224,51" />
+  <StrutsActivity path="doctor/searchHistory.jsp" location="1965,2070" dimension="160,51" />
+  <StrutsActivity path="/admin/search_ClaimRequests.jsp" location="2145,660" dimension="209,51" />
+  <StrutsActivity path="admin/claimRequests.jsp" location="2115,465" dimension="163,51" />
+  <StrutsActivity path="/admin/DisplayTag_SearchClaimRequests.jsp" location="1890,600" dimension="268,51" />
+  <StrutsActivity path="admin/search_ClaimRequests.jsp" location="1785,510" dimension="204,51" />
+  <StrutsActivity path="/admin/search_ClaimDetali1.jsp" location="1545,195" dimension="198,51" />
+  <StrutsActivity path="admin/claimDetail1.jsp" location="1755,135" dimension="152,51" />
+  <StrutsActivity path="/admin/DisplayTag_ClaimDetail1.jsp" location="2265,135" dimension="222,51" />
+  <StrutsActivity path="admin/search_ClaimDetali1.jsp" location="2025,135" dimension="193,51" />
+  <StrutsActivity path="/admin/search_ClaimDetail2.jsp" location="2235,1125" dimension="198,51" />
+  <StrutsActivity path="admin/claimDetail2.jsp" location="2160,1020" dimension="152,51" />
+  <StrutsActivity path="/admin/DisplayTag_SearchClaimDetail2.jsp" location="2150,1250" dimension="257,51" />
+  <StrutsActivity path="admin/search_ClaimDetail2.jsp" location="2325,990" dimension="193,51" />
+  <StrutsActivity path="/admin/search_ClaimDetail3.jsp" location="2150,1450" dimension="198,51" />
+  <StrutsActivity path="admin/claimDetail3.jsp" location="2130,1995" dimension="152,51" />
+  <StrutsActivity path="/admin/DisplayTag_SearchClaimDetail3.jsp" location="2460,1785" dimension="257,51" />
+  <StrutsActivity path="admin/search_ClaimDetail3.jsp" location="2325,2070" dimension="193,51" />
+  <StrutsActivity path="/insurance_table/search_ClaimRequest.jsp" location="2565,1305" dimension="252,51" />
+  <StrutsActivity path="insurance_table/claimRequest.jsp" location="2385,1545" dimension="206,51" />
+  <StrutsActivity path="/insurance_table/search_IClaimDetails1.jsp" location="-90,2190" dimension="254,51" />
+  <StrutsActivity path="insurance_table/iClaimDetails1.jsp" location="-255,2265" dimension="210,51" />
+  <StrutsActivity path="/insurance_table/DisplayTag_SearchClaimDetails1.jsp" location="435,2220" dimension="310,51" />
+  <StrutsActivity path="insurance_table/search_IClaimDetails1.jsp" location="105,2265" dimension="249,51" />
+  <StrutsActivity path="/insurance_table/search_ClaimDetails2.jsp" location="1095,2310" dimension="251,51" />
+  <StrutsActivity path="insurance_table/iClaimDetails2.jsp" location="960,2370" dimension="210,51" />
+  <StrutsActivity path="/insurance_table/DisplayTag_SearchClaimDetails2.jsp" location="2750,950" dimension="310,51" />
+  <StrutsActivity path="insurance_table/search_ClaimDetails2.jsp" location="1275,2370" dimension="246,51" />
+  <StrutsActivity path="/insurance_table/DisplayTag_SearchClaimRequest.jsp" location="2750,1150" dimension="311,51" />
+  <StrutsActivity path="insurance_table/search_ClaimRequest.jsp" location="2730,1530" dimension="247,51" />
+  <StrutsActivity path="/admin/search_AdmitedPaitent.jsp" location="2700,2220" dimension="214,51" />
+  <StrutsActivity path="admin/admitedPaitent.jsp" location="2445,2415" dimension="168,51" />
+  <StrutsActivity path="/admin/DisplayTag_SearchAdmitedPaitent.jsp" location="1845,2400" dimension="273,51" />
+  <StrutsActivity path="admin/search_AdmitedPaitent.jsp" location="2130,2430" dimension="209,51" />
+  <StrutsActivity path="/insurance_table/LOGINFAILURE.jsp" location="3050,1950" dimension="219,51" />
+  <StrutsActivity path="/insurance_table/Home.jsp" location="870,2475" dimension="173,51" />
+  <StrutsActivity path="insurance_table/insuranceLogin.jsp" location="510,2565" dimension="216,51" />
+  <StrutsActivity path="/doctor/search_AppointmentRequest.jsp" location="-255,2670" dimension="245,51" />
+  <StrutsActivity path="doctor/appointmentRequest.jsp" location="-345,2610" dimension="199,51" />
+  <StrutsActivity path="/doctor/DisplayTag_searchAppointmentRequest.jsp" location="135,2670" dimension="303,51" />
+  <StrutsActivity path="doctor/search_AppointmentRequest.jsp" location="15,2595" dimension="240,51" />
+  <StrutsActivity path="/doctor/search_DoctorSchedule.jsp" location="1830,2940" dimension="216,51" />
+  <StrutsActivity path="doctor/doctorSchedule.jsp" location="2085,2865" dimension="171,51" />
+  <StrutsActivity path="/doctor/DisplayTag_searchDoctorSchedule.jsp" location="650,2750" dimension="274,51" />
+  <StrutsActivity path="doctor/search_DoctorSchedule.jsp" location="1635,2850" dimension="211,51" />
+  <StrutsActivity path="/paitent/search_DischargeHistory.jsp" location="3350,1950" dimension="224,51" />
+  <StrutsActivity path="/paitent/dischargeHistory.jsp" location="3350,1350" dimension="184,51" />
+  <StrutsActivity path="/paitent/DisplayTag_searchHistory.jsp" location="3350,2150" dimension="230,51" />
+  <StrutsActivity path="/Search_dischargeHistory/searchDischargeHistory.jsp" location="3350,1750" dimension="311,51" />
+  <StrutsActivity path="/paitent/search_appointmentHistory.jsp" location="3350,2550" dimension="241,51" />
+  <StrutsActivity path="/paitent/appointmentHistory.jsp" location="1250,2550" dimension="202,51" />
+  <StrutsActivity path="/paitent/DisplayTag_searchAppointmentHistory.jsp" location="1550,2550" dimension="301,51" />
+  <StrutsActivity path="/paitent/Regfailure.jsp" location="-120,0" dimension="148,51" />
+  <StrutsActivity path="/admin/adminLoginFailure.jsp" location="1850,1550" dimension="191,51" />
+  <StrutsActivity path="/admin/doctoraddFailure.jsp" location="950,1450" dimension="182,51" />
+  <StrutsActivity path="/insurance_table/dataentryfailure.jsp" location="750,1155" dimension="223,51" />
+  <StrutsActivity path="/insurance_table/dataViewFailure.jsp" location="195,1365" dimension="223,51" />
+  <StrutsActivity path="/insurance_table/dataEdit.jsp" location="1550,1150" dimension="183,51" />
+  <StrutsActivity path="/admin/searchDoctorfailure.jsp" location="50,1550" dimension="195,51" />
+  <StrutsActivity path="/admin/DoctorEditFailure.jsp" location="650,1650" dimension="183,51" />
+  <StrutsActivity path="/doctor/prescriptionFailure.jsp" location="-195,1920" dimension="191,51" />
+  <StrutsActivity path="/doctor/doctorLoginFailure.jsp" location="1155,2055" dimension="193,51" />
+  <StrutsActivity path="/doctor/HistoryViewFailure.jsp" location="1850,950" dimension="191,51" />
+  <StrutsActivity path="/insurance_table/LoginFailure.jsp" location="615,2505" dimension="205,51" />
+  <StrutsActivity path="paitent/appointment1.jsp" location="2940,2565" dimension="165,51" />
+  <StrutsActivity path="/doctor/doctorLogin.jsp" location="1850,750" dimension="158,51" />
+  <StrutsActivity path="/admin/displayDoctor.jsp" location="650,850" dimension="165,51" />
+  <StrutsActivity path="/insurance_table/editData.jsp" location="1250,750" dimension="184,51" />
+  <StrutsActivity path="insurance_table/editData.jsp" location="720,1275" dimension="179,51" />
+  <StrutsActivity path="/index.html" location="-135,1275" dimension="91,51" />
+  <StrutsActivity path="/insurance_table/Displaytag_dataEntryData.jsp" location="1290,510" dimension="274,51" />
+  <StrutsActivity path="paitent/appointment2.jsp" location="2895,2880" dimension="165,51" />
+  <StrutsActivity path="/paitent/appointment1.jsp" location="3050,1550" dimension="170,51" />
+  <StrutsActivity path="/paitent/appointment2.jsp" location="2150,1650" dimension="170,51" />
+  <StrutsActivity path="/paitent/Afailure.jsp" location="2450,1650" dimension="136,51" />
+  <StrutsActivity path="/paitent/Asuccess.jsp" location="2750,1650" dimension="143,51" />
+  <StrutsActivity path="/admin/ALLFailure.jsp" location="3050,2350" dimension="147,51" />
+  <StrutsActivity path="/viewDataEntryData.do" location="-180,1005" dimension="284,96" />
+  <StrutsTransition id="/searchHistory.do,failure,/doctor/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1642,2061" />
+      <AbsolutePoint location="1642,2436" />
+      <AbsolutePoint location="790,2436" />
+      <AbsolutePoint location="790,1975" />
+      <AbsolutePoint location="950,1975" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/insuranceLogin.jsp,null,/insuranceLogin.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="567,2565" />
+      <AbsolutePoint location="567,2481" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/displayDoct.jsp,null,/displayDoct.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="935,1635" />
+      <AbsolutePoint location="935,1368" />
+      <AbsolutePoint location="1290,1368" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dataEdit.do,failure,/insurance_table/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,816" />
+      <AbsolutePoint location="1244,816" />
+      <AbsolutePoint location="1244,1761" />
+      <AbsolutePoint location="1250,1761" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/paitent/paitentLogin.jsp,null,/paitentLogin.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="582,210" />
+      <AbsolutePoint location="1089,210" />
+      <AbsolutePoint location="1089,146" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_AdmitedPaitent.do,success,/admin/DisplayTag_SearchAdmitedPaitent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1981,2346" />
+      <AbsolutePoint location="1981,2400" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/viewDataEntryData.jsp,null,http:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsphttp:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsp.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-18,1206" />
+      <AbsolutePoint location="-18,1616" />
+      <AbsolutePoint location="1122,1616" />
+      <AbsolutePoint location="1122,2070" />
+      <AbsolutePoint location="840,2070" />
+      <AbsolutePoint location="840,2700" />
+      <AbsolutePoint location="1355,2700" />
+      <AbsolutePoint location="1355,2786" />
+      <AbsolutePoint location="3350,2786" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/search_ClaimDetails2.jsp,null,/search_ClaimDetails2.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1398,2370" />
+      <AbsolutePoint location="1398,2246" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_viewData.do,failure,/insurance_table/ALLFAILIRE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="480,1095" />
+      <AbsolutePoint location="1748,1095" />
+      <AbsolutePoint location="1748,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/paitent/forgotPass.jsp,null,/forgotPass.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="830,360" />
+      <AbsolutePoint location="830,321" />
+      <AbsolutePoint location="285,321" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/adminLogin.jsp,null,/adminLogin.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="645,678" />
+      <AbsolutePoint location="503,678" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="doctor/search_AppointmentRequest.jsp,null,/search_AppointmentRequest.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="137,2595" />
+      <AbsolutePoint location="137,2526" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayHeli.do,success,/admin/displayDoct.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="135,946" />
+      <AbsolutePoint location="135,1475" />
+      <AbsolutePoint location="650,1475" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/adminLogin.do,success,/admin/AdminHome.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="225,670" />
+      <AbsolutePoint location="116,670" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_ClaimDetail3.do,success,/admin/DisplayTag_SearchClaimDetail3.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2588,1905" />
+      <AbsolutePoint location="2588,1836" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/forgotPass.do,failure,/paitent/forgotPass.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="150,351" />
+      <AbsolutePoint location="150,385" />
+      <AbsolutePoint location="765,385" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/search_AdmitedPaitent.jsp,null,/search_AdmitedPaitent.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2234,2430" />
+      <AbsolutePoint location="2234,2346" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/forgotPass.do,success,/paitent/paitentLogin.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="285,291" />
+      <AbsolutePoint location="488,291" />
+      <AbsolutePoint location="488,231" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="doctor/doctorLogin.jsp,null,/doctorLogin.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1384,1980" />
+      <AbsolutePoint location="1384,1956" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchDischargeHistory.do,success,/paitent/DisplayTag_searchHistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3686,1646" />
+      <AbsolutePoint location="3686,2175" />
+      <AbsolutePoint location="3580,2175" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_viewData.do,success,/insurance_table/Displaytag_search_viewData.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="480,1053" />
+      <AbsolutePoint location="630,1053" />
+      <AbsolutePoint location="630,1335" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/doctoradd.jsp,null,/doctoradd.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1068,750" />
+      <AbsolutePoint location="1068,646" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/claimDetail3.jsp,null,/claimDetail3.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2206,1995" />
+      <AbsolutePoint location="2206,1881" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_ClaimDetail2.do,success,/admin/DisplayTag_SearchClaimDetail2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2533,891" />
+      <AbsolutePoint location="2533,1275" />
+      <AbsolutePoint location="2407,1275" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/dataEdit.jsp,null,/dataEdit.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1664,950" />
+      <AbsolutePoint location="1664,846" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/viewDataEntryData.jsp,null,/viewDataEntryData.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-38,1155" />
+      <AbsolutePoint location="-38,1101" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_IClaimDetails1.do,success,/insurance_table/DisplayTag_SearchClaimDetails1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="299,2136" />
+      <AbsolutePoint location="299,2256" />
+      <AbsolutePoint location="435,2256" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/doctorSchedule.do,success,/doctor/search_DoctorSchedule.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2040,2781" />
+      <AbsolutePoint location="2040,2940" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/claimDetail3.do,success,/admin/search_ClaimDetail3.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2335,1785" />
+      <AbsolutePoint location="2335,1501" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/iClaimDetails2.jsp,null,/iClaimDetails2.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1029,2370" />
+      <AbsolutePoint location="1029,2286" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/claimRequests.jsp,null,/claimRequests.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2229,465" />
+      <AbsolutePoint location="2229,396" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="doctor/doctorSchedule.jsp,null,/doctorSchedule.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2158,2865" />
+      <AbsolutePoint location="2158,2781" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="doctor/doctorPrescription2.jsp,null,/doctorPrescription2.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="422,1860" />
+      <AbsolutePoint location="422,1776" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/doctorLogin.do,failure,/doctor/LOGINFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1508,1920" />
+      <AbsolutePoint location="2340,1920" />
+      <AbsolutePoint location="2340,2016" />
+      <AbsolutePoint location="2836,2016" />
+      <AbsolutePoint location="2836,2001" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewDataEntryData.do,success,/insurance_table/search_viewData.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-150,1101" />
+      <AbsolutePoint location="-150,1221" />
+      <AbsolutePoint location="180,1221" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admitedPaitent.do,success,/admin/search_AdmitedPaitent.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2604,2250" />
+      <AbsolutePoint location="2700,2250" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="http://raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsp.do,success,/insurance_table/search_viewData.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3746,2750" />
+      <AbsolutePoint location="3746,1056" />
+      <AbsolutePoint location="2478,1056" />
+      <AbsolutePoint location="2478,1335" />
+      <AbsolutePoint location="1625,1335" />
+      <AbsolutePoint location="1625,1221" />
+      <AbsolutePoint location="407,1221" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="http:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsphttp:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsphttp:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsp.do,success,/insurance_table/search_viewData.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3350,2816" />
+      <AbsolutePoint location="-435,2816" />
+      <AbsolutePoint location="-435,1221" />
+      <AbsolutePoint location="180,1221" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/paitent/dischargeHistory.jsp,null,/dischargeHistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3501,1350" />
+      <AbsolutePoint location="3501,1246" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_appointmentHistory.do,success,/paitent/DisplayTag_searchAppointmentHistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2450,2575" />
+      <AbsolutePoint location="1851,2575" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/insurance_table/insuranceTable.jsp,null,/insuranceTable.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="755,1020" />
+      <AbsolutePoint location="755,990" />
+      <AbsolutePoint location="950,990" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/editDoct.do,failure,/admin/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1476,1616" />
+      <AbsolutePoint location="3158,1616" />
+      <AbsolutePoint location="3158,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/insuranceTable.do,failure,/insurance_table/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1170,1046" />
+      <AbsolutePoint location="1170,1800" />
+      <AbsolutePoint location="1250,1800" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/claimRequest.do,success,/insurance_table/search_ClaimRequest.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2642,1380" />
+      <AbsolutePoint location="2642,1356" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/doctorLogin.do,success,/doctor/home.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1260,1896" />
+      <AbsolutePoint location="630,1896" />
+      <AbsolutePoint location="630,1950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_ClaimDetali1.do,success,/admin/DisplayTag_ClaimDetail1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2238,18" />
+      <AbsolutePoint location="2376,18" />
+      <AbsolutePoint location="2376,135" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="doctor/search_DoctorSchedule.jsp,null,/search_DoctorSchedule.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1758,2850" />
+      <AbsolutePoint location="1758,2781" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/claimDetail1.do,success,/admin/search_ClaimDetali1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1644,81" />
+      <AbsolutePoint location="1644,195" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/doctorPrescription1.do,failure,/doctor/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-270,1776" />
+      <AbsolutePoint location="-270,2165" />
+      <AbsolutePoint location="1028,2165" />
+      <AbsolutePoint location="1028,2001" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/admitedPaitent.jsp,null,/admitedPaitent.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2472,2415" />
+      <AbsolutePoint location="2472,2331" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/doctorPrescription2.do,failure,/doctor/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="437,1716" />
+      <AbsolutePoint location="1037,1716" />
+      <AbsolutePoint location="1037,1950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="doctor/doctorPrescription1.jsp,null,/doctorPrescription1.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-13,1845" />
+      <AbsolutePoint location="-13,1776" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/doctorPrescription1.do,success,/doctor/doctorPrescription2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-141,1776" />
+      <AbsolutePoint location="-141,1810" />
+      <AbsolutePoint location="825,1810" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayDoct.do,failure,/admin/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1491,1416" />
+      <AbsolutePoint location="1491,1716" />
+      <AbsolutePoint location="3128,1716" />
+      <AbsolutePoint location="3128,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/adminLogin.do,failure,/admin/LOGINFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="335,726" />
+      <AbsolutePoint location="335,916" />
+      <AbsolutePoint location="1800,916" />
+      <AbsolutePoint location="1800,2385" />
+      <AbsolutePoint location="2750,2385" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/search_ClaimDetail2.jsp,null,/search_ClaimDetail2.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2424,990" />
+      <AbsolutePoint location="2424,891" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/resetPass.do,failure,/paitent/resetPass.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="443,550" />
+      <AbsolutePoint location="540,550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="doctor/searchHistory.jsp,null,/searchHistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1965,2091" />
+      <AbsolutePoint location="1672,2091" />
+      <AbsolutePoint location="1672,2061" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/insuranceLogin.do,success,/insurance_table/Home.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="700,2406" />
+      <AbsolutePoint location="945,2406" />
+      <AbsolutePoint location="945,2475" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/paitentLogin.do,failure,/paitent/LOGINFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1229,98" />
+      <AbsolutePoint location="2637,98" />
+      <AbsolutePoint location="2637,1080" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/search_ClaimRequests.jsp,null,/search_ClaimRequests.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1904,510" />
+      <AbsolutePoint location="1904,426" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewHistory.do,failure,/doctor/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1890,1821" />
+      <AbsolutePoint location="1079,1821" />
+      <AbsolutePoint location="1079,1950" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_DoctorSchedule.do,success,/doctor/DisplayTag_searchDoctorSchedule.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1605,2766" />
+      <AbsolutePoint location="924,2766" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/appointmentHistory.do,success,/paitent/search_appointmentHistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3510,2446" />
+      <AbsolutePoint location="3510,2550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dischargeHistory.do,success,/paitent/search_DischargeHistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3652,1198" />
+      <AbsolutePoint location="4122,1198" />
+      <AbsolutePoint location="4122,1975" />
+      <AbsolutePoint location="3574,1975" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/iClaimDetails1.jsp,null,/iClaimDetails1.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-150,2265" />
+      <AbsolutePoint location="-150,2136" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayHeli.do,failure,/admin/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="165,946" />
+      <AbsolutePoint location="165,1431" />
+      <AbsolutePoint location="2119,1431" />
+      <AbsolutePoint location="2119,1770" />
+      <AbsolutePoint location="3050,1770" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/search_ClaimDetali1.jsp,null,/search_ClaimDetali1.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2094,135" />
+      <AbsolutePoint location="2094,66" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/search_viewData.jsp,null,/search_viewData.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="330,1185" />
+      <AbsolutePoint location="330,1101" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/claimDetail2.do,success,/admin/search_ClaimDetail2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2119,891" />
+      <AbsolutePoint location="2119,1165" />
+      <AbsolutePoint location="2235,1165" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/iClaimDetails1.do,success,/insurance_table/search_IClaimDetails1.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="34,2136" />
+      <AbsolutePoint location="34,2190" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewHistory.do,success,/doctor/searchHistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2089,1785" />
+      <AbsolutePoint location="2089,1161" />
+      <AbsolutePoint location="2015,1161" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/resetPass.do,success,/paitent/paitentLogin.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="428,495" />
+      <AbsolutePoint location="428,231" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="http:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsphttp:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsp.do,success,/insurance_table/search_viewData.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3780,2750" />
+      <AbsolutePoint location="3780,1056" />
+      <AbsolutePoint location="2478,1056" />
+      <AbsolutePoint location="2478,1335" />
+      <AbsolutePoint location="1625,1335" />
+      <AbsolutePoint location="1625,1221" />
+      <AbsolutePoint location="407,1221" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/dataEdit.do,success,/insurance_table/viewDataEntryData.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,786" />
+      <AbsolutePoint location="1449,786" />
+      <AbsolutePoint location="1449,1150" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/search_ClaimRequest.jsp,null,/search_ClaimRequest.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2893,1530" />
+      <AbsolutePoint location="2893,1461" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="http:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsphttp:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsphttp:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsp.do,failure,/insurance_table/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3940,2750" />
+      <AbsolutePoint location="3940,916" />
+      <AbsolutePoint location="1845,916" />
+      <AbsolutePoint location="1845,1665" />
+      <AbsolutePoint location="1352,1665" />
+      <AbsolutePoint location="1352,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/claimDetail2.jsp,null,/claimDetail2.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2228,1020" />
+      <AbsolutePoint location="2228,891" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/paitent/resetPass.jsp,null,/resetPass.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="611,525" />
+      <AbsolutePoint location="611,441" />
+      <AbsolutePoint location="311,441" />
+      <AbsolutePoint location="311,495" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/paitentRegistration.do,success,/paitent/paitentLogin.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="206,146" />
+      <AbsolutePoint location="206,205" />
+      <AbsolutePoint location="420,205" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/claimRequest.jsp,null,/claimRequest.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2528,1545" />
+      <AbsolutePoint location="2528,1476" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/paitentLogin.do,success,/paitent/paitenthome.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1119,146" />
+      <AbsolutePoint location="1119,280" />
+      <AbsolutePoint location="733,280" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/claimDetail1.jsp,null,/claimDetail1.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1831,135" />
+      <AbsolutePoint location="1831,81" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/editDoct.jsp,null,/editDoct.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1550,1575" />
+      <AbsolutePoint location="1476,1575" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="doctor/appointmentRequest.jsp,null,/appointmentRequest.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-212,2610" />
+      <AbsolutePoint location="-212,2526" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="http://raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsp.do,failure,/insurance_table/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3716,2750" />
+      <AbsolutePoint location="3716,1275" />
+      <AbsolutePoint location="2640,1275" />
+      <AbsolutePoint location="2640,1221" />
+      <AbsolutePoint location="1697,1221" />
+      <AbsolutePoint location="1697,1665" />
+      <AbsolutePoint location="1352,1665" />
+      <AbsolutePoint location="1352,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/claimRequests.do,success,/admin/search_ClaimRequests.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2293,396" />
+      <AbsolutePoint location="2293,660" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_ClaimRequest.do,success,/insurance_table/DisplayTag_SearchClaimRequest.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2905,1365" />
+      <AbsolutePoint location="2905,1201" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/doctoradd.do,success,/admin/doctoradd.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1023,646" />
+      <AbsolutePoint location="1023,750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/displayDoct.do,success,/admin/searchDoctorSuccess.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1290,1401" />
+      <AbsolutePoint location="451,1401" />
+      <AbsolutePoint location="451,1550" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="doctor/viewHistory.jsp,null,/viewHistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1905,1980" />
+      <AbsolutePoint location="1905,1881" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/iClaimDetails2.do,success,/insurance_table/search_ClaimDetails2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1144,2286" />
+      <AbsolutePoint location="1144,2310" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/Search_dischargeHistory/searchDischargeHistory.jsp,null,/searchDischargeHistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3518,1750" />
+      <AbsolutePoint location="3518,1646" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/viewDataEntryData.do,failure,/insurance_table/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-8,1101" />
+      <AbsolutePoint location="-8,1125" />
+      <AbsolutePoint location="1200,1125" />
+      <AbsolutePoint location="1200,1661" />
+      <AbsolutePoint location="1352,1661" />
+      <AbsolutePoint location="1352,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/admin/displayHeli.jsp,null,/displayHeli.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="350,875" />
+      <AbsolutePoint location="290,875" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/doctoradd.do,failure,/admin/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1187,585" />
+      <AbsolutePoint location="3314,585" />
+      <AbsolutePoint location="3314,1775" />
+      <AbsolutePoint location="3206,1775" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/insuranceTable.do,success,/insurance_table/insuranceTable.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="950,1031" />
+      <AbsolutePoint location="865,1031" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/editDoct.do,success,/admin/displayHeli.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1250,1586" />
+      <AbsolutePoint location="582,1586" />
+      <AbsolutePoint location="582,875" />
+      <AbsolutePoint location="500,875" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/search_IClaimDetails1.jsp,null,/search_IClaimDetails1.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="269,2265" />
+      <AbsolutePoint location="269,2136" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/paitent/appointmentHistory.jsp,null,/appointmentHistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1351,2550" />
+      <AbsolutePoint location="1351,2496" />
+      <AbsolutePoint location="3470,2496" />
+      <AbsolutePoint location="3470,2446" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="admin/search_ClaimDetail3.jsp,null,/search_ClaimDetail3.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2499,2070" />
+      <AbsolutePoint location="2499,2001" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/viewDataEntryData.jsp,null,http://raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsp.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-18,1206" />
+      <AbsolutePoint location="-18,1616" />
+      <AbsolutePoint location="1122,1616" />
+      <AbsolutePoint location="1122,2070" />
+      <AbsolutePoint location="840,2070" />
+      <AbsolutePoint location="840,2700" />
+      <AbsolutePoint location="1355,2700" />
+      <AbsolutePoint location="1355,2786" />
+      <AbsolutePoint location="3350,2786" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_AppointmentRequest.do,success,/doctor/DisplayTag_searchAppointmentRequest.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="286,2526" />
+      <AbsolutePoint location="286,2670" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/searchHistory.do,success,/doctor/DisplayTagSearchHistory.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1519,1965" />
+      <AbsolutePoint location="1519,1465" />
+      <AbsolutePoint location="1962,1465" />
+      <AbsolutePoint location="1962,1401" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/paitentRegistration.do,failure,/paitent/LOGINFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="206,50" />
+      <AbsolutePoint location="206,-105" />
+      <AbsolutePoint location="2667,-105" />
+      <AbsolutePoint location="2667,1080" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_ClaimDetails2.do,success,/insurance_table/DisplayTag_SearchClaimDetails2.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="1546,2186" />
+      <AbsolutePoint location="3284,2186" />
+      <AbsolutePoint location="3284,975" />
+      <AbsolutePoint location="3060,975" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="http:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsphttp:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsp.do,failure,/insurance_table/ALLFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3750,2750" />
+      <AbsolutePoint location="3750,1275" />
+      <AbsolutePoint location="2640,1275" />
+      <AbsolutePoint location="2640,1221" />
+      <AbsolutePoint location="1697,1221" />
+      <AbsolutePoint location="1697,1665" />
+      <AbsolutePoint location="1352,1665" />
+      <AbsolutePoint location="1352,1750" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="insurance_table/viewDataEntryData.jsp,null,http:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsphttp:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsphttp:/raxit:8080/PaitentTrackmateSystem/developer/AdminDataView.jsp.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-135,1180" />
+      <AbsolutePoint location="-405,1180" />
+      <AbsolutePoint location="-405,3006" />
+      <AbsolutePoint location="3940,3006" />
+      <AbsolutePoint location="3940,2846" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/doctorPrescription2.do,success,/doctor/home.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="293,1776" />
+      <AbsolutePoint location="293,1986" />
+      <AbsolutePoint location="555,1986" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/search_ClaimRequests.do,success,/admin/DisplayTag_SearchClaimRequests.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="2024,426" />
+      <AbsolutePoint location="2024,600" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/paitent/paitentRegistration.jsp,null,/paitentRegistration.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="650,75" />
+      <AbsolutePoint location="362,75" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/paitent/search_appointmentHistory.jsp,null,/search_appointmentHistory.do,2" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="3470,2601" />
+      <AbsolutePoint location="3470,2631" />
+      <AbsolutePoint location="2809,2631" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/insuranceLogin.do,failure,/insurance_table/LOGINFAILURE.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="495,2481" />
+      <AbsolutePoint location="495,3066" />
+      <AbsolutePoint location="3212,3066" />
+      <AbsolutePoint location="3212,2001" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+  <StrutsTransition id="/appointmentRequest.do,success,/doctor/search_AppointmentRequest.jsp,1" routingType="0">
+    <AutomaticBendpoints>
+      <AbsolutePoint location="-131,2526" />
+      <AbsolutePoint location="-131,2670" />
+    </AutomaticBendpoints>
+  </StrutsTransition>
+</FlowViewLayout>
+

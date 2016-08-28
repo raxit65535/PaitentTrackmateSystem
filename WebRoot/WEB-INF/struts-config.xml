@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN" "http://struts.apache.org/dtds/struts-config_1_3.dtd">
+
+<struts-config>
+  <form-beans >
+    <form-bean name="paitentRegistrationForm" type="com.sanjivni.struts.form.PaitentRegistrationForm" />
+    <form-bean name="paitentLoginForm" type="com.sanjivni.struts.form.PaitentLoginForm" />
+    <form-bean name="forgotPassForm" type="com.sanjivni.struts.form.ForgotPassForm" />
+    <form-bean name="resetPassForm" type="com.sanjivni.struts.form.ResetPassForm" />
+    <form-bean name="adminLoginForm" type="com.sanjivni.admin.AdminLoginForm" />
+    <form-bean name="addDoctorForm" type="com.sanjivni.admin.AddDoctorForm" />
+    <form-bean name="addDocForm" type="com.sanjivni.admin.AddDocForm" />
+    <form-bean name="insertDoctorForm" type="com.sanjivni.admin.InsertDoctorForm" />
+    <form-bean name="doctoraddForm" type="com.sanjivni.admin.DoctoraddForm" />
+    <form-bean name="displayDoctorForm" type="com.sanjivni.admin.DisplayDoctorForm" />
+    <form-bean name="showmeDocForm" type="com.sanjivni.admin.ShowmeDocForm" />
+    <form-bean name="doctDispForm" type="com.sanjivni.admin.DoctDispForm" />
+    <form-bean name="displayHeliForm" type="com.sanjivni.admin.DisplayHeliForm" />
+    <form-bean name="licDForm" type="com.sanjivni.struts.form.LicDForm" />
+    <form-bean name="licDbForm" type="com.insurance.table.LicDbForm" />
+    <form-bean name="iciciForm" type="com.insurance.table.IciciForm" />
+    <form-bean name="insuranceTableForm" type="com.insurance.table.InsuranceTableForm" />
+    <form-bean name="imgattemptForm" type="raxit.attempts.ImgattemptForm" />
+    <form-bean name="imgDisplayForm" type="raxit.attempts.ImgDisplayForm" />
+    <form-bean name="viewDataEntryDataForm" type="com.insurance.table.ViewDataEntryDataForm" />
+    <form-bean name="search_viewDataForm" type="com.insurance.table.Search_viewDataForm" />
+    <form-bean name="editDataForm" type="com.raxit.insurance.EditDataForm" />
+    <form-bean name="dataEditForm" type="com.insurance.table.DataEditForm" />
+    <form-bean name="displayDoctForm" type="com.sanjivni.admin.DisplayDoctForm" />
+    <form-bean name="editDoctForm" type="com.sanjivni.admin.EditDoctForm" />
+    <form-bean name="doctorPrescription1Form" type="com.sanjivni.doctor.DoctorPrescription1Form" />
+    <form-bean name="doctorPrescription2Form" type="com.sanjivni.doctor.DoctorPrescription2Form" />
+    <form-bean name="doctorLoginForm" type="com.sanjivni.doctor.DoctorLoginForm" />
+    <form-bean name="viewHistoryForm" type="com.sanjivni.doctor.ViewHistoryForm" />
+    <form-bean name="searchHistoryForm" type="com.sanjivni.doctor.SearchHistoryForm" />
+    <form-bean name="claimRequestsForm" type="com.sanjivni.admin.ClaimRequestsForm" />
+    <form-bean name="search_ClaimRequestsForm" type="com.sanjivni.admin.Search_ClaimRequestsForm" />
+    <form-bean name="claimDetail1Form" type="com.sanjivni.admin.ClaimDetail1Form" />
+    <form-bean name="search_ClaimDetali1Form" type="com.sanjivni.admin.Search_ClaimDetali1Form" />
+    <form-bean name="claimDetail2Form" type="com.sanjivni.admin.ClaimDetail2Form" />
+    <form-bean name="search_ClaimDetail2Form" type="com.sanjivni.admin.Search_ClaimDetail2Form" />
+    <form-bean name="claimDetail3Form" type="com.sanjivni.admin.ClaimDetail3Form" />
+    <form-bean name="search_ClaimDetail3Form" type="com.sanjivni.admin.Search_ClaimDetail3Form" />
+    <form-bean name="claimRequestForm" type="com.insurance.table.ClaimRequestForm" />
+    <form-bean name="iClaimDetails1Form" type="com.insurance.table.IClaimDetails1Form" />
+    <form-bean name="search_IClaimDetails1Form" type="com.insurance.table.Search_IClaimDetails1Form" />
+    <form-bean name="iClaimDetails2Form" type="com.insurance.table.IClaimDetails2Form" />
+    <form-bean name="search_ClaimDetails2Form" type="com.insurance.table.Search_ClaimDetails2Form" />
+    <form-bean name="search_ClaimRequestForm" type="com.insurance.table.Search_ClaimRequestForm" />
+    <form-bean name="admitedPaitentForm" type="com.sanjivni.admit.AdmitedPaitentForm" />
+    <form-bean name="search_AdmitedPaitentForm" type="com.sanjivni.admin.Search_AdmitedPaitentForm" />
+    <form-bean name="insuranceLoginForm" type="com.insurance.table.InsuranceLoginForm" />
+    <form-bean name="appointment1Form" type="com.sanjivni.struts.form.Appointment1Form" />
+    <form-bean name="appointment2Form" type="com.sanjivni.struts.form.Appointment2Form" />
+    <form-bean name="appointmentRequestForm" type="com.sanjivni.doctor.AppointmentRequestForm" />
+    <form-bean name="search_AppointmentRequestForm" type="com.sanjivni.doctor.Search_AppointmentRequestForm" />
+    <form-bean name="doctorScheduleForm" type="com.sanjivni.doctor.DoctorScheduleForm" />
+    <form-bean name="search_DoctorScheduleForm" type="com.sanjivni.doctor.Search_DoctorScheduleForm" />
+    <form-bean name="dischargeHistoryForm" type="com.sanjivni.struts.form.DischargeHistoryForm" />
+    <form-bean name="searchDischargeHistoryForm" type="com.sanjivni.struts.form.SearchDischargeHistoryForm" />
+    <form-bean name="appointmentHistoryForm" type="com.sanjivni.struts.form.AppointmentHistoryForm" />
+    <form-bean name="search_appointmentHistoryForm" type="com.sanjivni.struts.form.Search_appointmentHistoryForm" />
+
+  </form-beans>
+
+  <global-exceptions />
+  <global-forwards />
+  <action-mappings >
+    <action
+      attribute="paitentRegistrationForm"
+      input="/paitent/paitentRegistration.jsp"
+      name="paitentRegistrationForm"
+      path="/paitentRegistration"
+      scope="request"
+      type="com.sanjivni.struts.action.PaitentRegistrationAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/paitent/LOGINFAILURE.jsp?e=InsuranceID Doesnt Exits !! or Already Exist  or EmailID Already Exist...!!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/paitent/paitentLogin.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="paitentLoginForm"
+      input="/paitent/paitentLogin.jsp"
+      name="paitentLoginForm"
+      path="/paitentLogin"
+      scope="request"
+      type="com.sanjivni.struts.action.PaitentLoginAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/paitent/LOGINFAILURE.jsp?e=Paitent LoginFailure....!!!!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/paitent/paitenthome.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="forgotPassForm"
+      input="/paitent/forgotPass.jsp"
+      name="forgotPassForm"
+      path="/forgotPass"
+      scope="request"
+      type="com.sanjivni.struts.action.ForgotPassAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/paitent/forgotPass.jsp"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/paitent/paitentLogin.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="resetPassForm"
+      input="/paitent/resetPass.jsp"
+      name="resetPassForm"
+      path="/resetPass"
+      scope="request"
+      type="com.sanjivni.struts.action.ResetPassAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/paitent/resetPass.jsp"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/paitent/paitentLogin.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="adminLoginForm"
+      input="/admin/adminLogin.jsp"
+      name="adminLoginForm"
+      path="/adminLogin"
+      scope="request"
+      type="com.sanjivni.admin.AdminLoginAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/admin/LOGINFAILURE.jsp?e=Admin Login Failure Contact Develper Er.Raxit(IT Engineer..)..!!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/admin/AdminHome.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="doctoraddForm"
+      input="/admin/doctoradd.jsp"
+      name="doctoraddForm"
+      path="/doctoradd"
+      scope="request"
+      type="com.sanjivni.admin.DoctoraddAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/admin/ALLFAILURE.jsp?e=Docotr Insert Fail....May be server is busy...Try again with correct parameters...!!!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/admin/doctoradd.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="displayHeliForm"
+      input="/admin/displayHeli.jsp"
+      name="displayHeliForm"
+      path="/displayHeli"
+      scope="request"
+      type="com.sanjivni.admin.DisplayHeliAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/admin/ALLFAILURE.jsp?e=Display Failure"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/admin/displayDoct.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="insuranceTableForm"
+      input="/insurance_table/insuranceTable.jsp"
+      name="insuranceTableForm"
+      path="/insuranceTable"
+      scope="request"
+      type="com.insurance.table.InsuranceTableAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/insurance_table/ALLFAILURE.jsp?e=Record Already Exist...!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/insurance_table/insuranceTable.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="viewDataEntryDataForm"
+      input="insurance_table/viewDataEntryData.jsp"
+      name="viewDataEntryDataForm"
+      path="/viewDataEntryData"
+      scope="request"
+      type="com.insurance.table.ViewDataEntryDataAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/insurance_table/ALLFAILURE.jsp?e=display Failure"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/insurance_table/search_viewData.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_viewDataForm"
+      input="insurance_table/search_viewData.jsp"
+      name="search_viewDataForm"
+      path="/search_viewData"
+      scope="request"
+      type="com.insurance.table.Search_viewDataAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/insurance_table/ALLFAILIRE.jsp?e=display failure"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/insurance_table/Displaytag_search_viewData.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="dataEditForm"
+      input="insurance_table/dataEdit.jsp"
+      name="dataEditForm"
+      path="/dataEdit"
+      scope="request"
+      type="com.insurance.table.DataEditAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/insurance_table/ALLFAILURE.jsp?e=DataEdit Fail PLZ Try again latter..!!!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/insurance_table/viewDataEntryData.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="displayDoctForm"
+      input="admin/displayDoct.jsp"
+      name="displayDoctForm"
+      path="/displayDoct"
+      scope="request"
+      type="com.sanjivni.admin.DisplayDoctAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/admin/ALLFAILURE.jsp?e=display failure"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/admin/searchDoctorSuccess.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="editDoctForm"
+      input="admin/editDoct.jsp"
+      name="editDoctForm"
+      path="/editDoct"
+      scope="request"
+      type="com.sanjivni.admin.EditDoctAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/admin/ALLFAILURE.jsp?e=Doct Edit Fail plz  Try  again...!!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/admin/displayHeli.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="doctorPrescription1Form"
+      input="doctor/doctorPrescription1.jsp"
+      name="doctorPrescription1Form"
+      path="/doctorPrescription1"
+      scope="request"
+      type="com.sanjivni.doctor.DoctorPrescription1Action"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/doctor/ALLFAILURE.jsp?e=The paitent you are trying to prescribe is not admited..!!!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/doctor/doctorPrescription2.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="doctorPrescription2Form"
+      input="doctor/doctorPrescription2.jsp"
+      name="doctorPrescription2Form"
+      path="/doctorPrescription2"
+      scope="request"
+      type="com.sanjivni.doctor.DoctorPrescription2Action"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/doctor/ALLFAILURE.jsp?e=doctor prescription failure....may be server is busy...try again with correct parameters"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/doctor/home.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="doctorLoginForm"
+      input="doctor/doctorLogin.jsp"
+      name="doctorLoginForm"
+      path="/doctorLogin"
+      scope="request"
+      type="com.sanjivni.doctor.DoctorLoginAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/doctor/LOGINFAILURE.jsp?e=Doctor login Fail !!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/doctor/home.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="viewHistoryForm"
+      input="doctor/viewHistory.jsp"
+      name="viewHistoryForm"
+      path="/viewHistory"
+      scope="request"
+      type="com.sanjivni.doctor.ViewHistoryAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/doctor/ALLFAILURE.jsp?e=Histry view failure...may be server is busy...try again latter...!!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/doctor/searchHistory.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="searchHistoryForm"
+      input="doctor/searchHistory.jsp"
+      name="searchHistoryForm"
+      path="/searchHistory"
+      scope="request"
+      type="com.sanjivni.doctor.SearchHistoryAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/doctor/ALLFAILURE.jsp?e=Histry view failure...may be server is busy...try again latter...!!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/doctor/DisplayTagSearchHistory.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="claimRequestsForm"
+      input="admin/claimRequests.jsp"
+      name="claimRequestsForm"
+      path="/claimRequests"
+      scope="request"
+      type="com.sanjivni.admin.ClaimRequestsAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/admin/search_ClaimRequests.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_ClaimRequestsForm"
+      input="admin/search_ClaimRequests.jsp"
+      name="search_ClaimRequestsForm"
+      path="/search_ClaimRequests"
+      scope="request"
+      type="com.sanjivni.admin.Search_ClaimRequestsAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/admin/DisplayTag_SearchClaimRequests.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="claimDetail1Form"
+      input="admin/claimDetail1.jsp"
+      name="claimDetail1Form"
+      path="/claimDetail1"
+      scope="request"
+      type="com.sanjivni.admin.ClaimDetail1Action"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/admin/search_ClaimDetali1.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_ClaimDetali1Form"
+      input="admin/search_ClaimDetali1.jsp"
+      name="search_ClaimDetali1Form"
+      path="/search_ClaimDetali1"
+      scope="request"
+      type="com.sanjivni.admin.Search_ClaimDetali1Action"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/admin/DisplayTag_ClaimDetail1.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="claimDetail2Form"
+      input="admin/claimDetail2.jsp"
+      name="claimDetail2Form"
+      path="/claimDetail2"
+      scope="request"
+      type="com.sanjivni.admin.ClaimDetail2Action"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/admin/search_ClaimDetail2.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_ClaimDetail2Form"
+      input="admin/search_ClaimDetail2.jsp"
+      name="search_ClaimDetail2Form"
+      path="/search_ClaimDetail2"
+      scope="request"
+      type="com.sanjivni.admin.Search_ClaimDetail2Action"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/admin/DisplayTag_SearchClaimDetail2.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="claimDetail3Form"
+      input="admin/claimDetail3.jsp"
+      name="claimDetail3Form"
+      path="/claimDetail3"
+      scope="request"
+      type="com.sanjivni.admin.ClaimDetail3Action"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/admin/search_ClaimDetail3.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_ClaimDetail3Form"
+      input="admin/search_ClaimDetail3.jsp"
+      name="search_ClaimDetail3Form"
+      path="/search_ClaimDetail3"
+      scope="request"
+      type="com.sanjivni.admin.Search_ClaimDetail3Action"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/admin/DisplayTag_SearchClaimDetail3.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="claimRequestForm"
+      input="insurance_table/claimRequest.jsp"
+      name="claimRequestForm"
+      path="/claimRequest"
+      scope="request"
+      type="com.insurance.table.ClaimRequestAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/insurance_table/search_ClaimRequest.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="iClaimDetails1Form"
+      input="insurance_table/iClaimDetails1.jsp"
+      name="iClaimDetails1Form"
+      path="/iClaimDetails1"
+      scope="request"
+      type="com.insurance.table.IClaimDetails1Action"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/insurance_table/search_IClaimDetails1.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_IClaimDetails1Form"
+      input="insurance_table/search_IClaimDetails1.jsp"
+      name="search_IClaimDetails1Form"
+      path="/search_IClaimDetails1"
+      scope="request"
+      type="com.insurance.table.Search_IClaimDetails1Action"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/insurance_table/DisplayTag_SearchClaimDetails1.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="iClaimDetails2Form"
+      input="insurance_table/iClaimDetails2.jsp"
+      name="iClaimDetails2Form"
+      path="/iClaimDetails2"
+      scope="request"
+      type="com.insurance.table.IClaimDetails2Action"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/insurance_table/search_ClaimDetails2.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_ClaimDetails2Form"
+      input="insurance_table/search_ClaimDetails2.jsp"
+      name="search_ClaimDetails2Form"
+      path="/search_ClaimDetails2"
+      scope="request"
+      type="com.insurance.table.Search_ClaimDetails2Action"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/insurance_table/DisplayTag_SearchClaimDetails2.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_ClaimRequestForm"
+      input="insurance_table/search_ClaimRequest.jsp"
+      name="search_ClaimRequestForm"
+      path="/search_ClaimRequest"
+      scope="request"
+      type="com.insurance.table.Search_ClaimRequestAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/insurance_table/DisplayTag_SearchClaimRequest.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="admitedPaitentForm"
+      input="admin/admitedPaitent.jsp"
+      name="admitedPaitentForm"
+      path="/admitedPaitent"
+      scope="request"
+      type="com.sanjivni.admin.AdmitedPaitentAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/admin/search_AdmitedPaitent.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_AdmitedPaitentForm"
+      input="admin/search_AdmitedPaitent.jsp"
+      name="search_AdmitedPaitentForm"
+      path="/search_AdmitedPaitent"
+      scope="request"
+      type="com.sanjivni.admin.Search_AdmitedPaitentAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/admin/DisplayTag_SearchAdmitedPaitent.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="insuranceLoginForm"
+      input="insurance_table/insuranceLogin.jsp"
+      name="insuranceLoginForm"
+      path="/insuranceLogin"
+      scope="request"
+      type="com.insurance.table.InsuranceLoginAction"
+      cancellable="true">
+      <forward
+        name="failure"
+        path="/insurance_table/LOGINFAILURE.jsp?e=InsuranceLogin Failure...Try again with correct ID and Password!!!"
+        redirect="true" />
+      <forward
+        name="success"
+        path="/insurance_table/Home.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="appointmentRequestForm"
+      input="doctor/appointmentRequest.jsp"
+      name="appointmentRequestForm"
+      path="/appointmentRequest"
+      scope="request"
+      type="com.sanjivni.doctor.AppointmentRequestAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/doctor/search_AppointmentRequest.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_AppointmentRequestForm"
+      input="doctor/search_AppointmentRequest.jsp"
+      name="search_AppointmentRequestForm"
+      path="/search_AppointmentRequest"
+      scope="request"
+      type="com.sanjivni.doctor.Search_AppointmentRequestAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/doctor/DisplayTag_searchAppointmentRequest.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="doctorScheduleForm"
+      input="doctor/doctorSchedule.jsp"
+      name="doctorScheduleForm"
+      path="/doctorSchedule"
+      scope="request"
+      type="com.sanjivni.doctor.DoctorScheduleAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/doctor/search_DoctorSchedule.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_DoctorScheduleForm"
+      input="doctor/search_DoctorSchedule.jsp"
+      name="search_DoctorScheduleForm"
+      path="/search_DoctorSchedule"
+      scope="request"
+      type="com.sanjivni.doctor.Search_DoctorScheduleAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/doctor/DisplayTag_searchDoctorSchedule.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="dischargeHistoryForm"
+      input="/paitent/dischargeHistory.jsp"
+      name="dischargeHistoryForm"
+      path="/dischargeHistory"
+      scope="request"
+      type="com.sanjivni.struts.action.DischargeHistoryAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/paitent/search_DischargeHistory.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="searchDischargeHistoryForm"
+      input="/Search_dischargeHistory/searchDischargeHistory.jsp"
+      name="searchDischargeHistoryForm"
+      path="/searchDischargeHistory"
+      scope="request"
+      type="com.sanjivni.struts.action.SearchDischargeHistoryAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/paitent/DisplayTag_searchHistory.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="appointmentHistoryForm"
+      input="/paitent/appointmentHistory.jsp"
+      name="appointmentHistoryForm"
+      path="/appointmentHistory"
+      scope="request"
+      type="com.sanjivni.struts.action.AppointmentHistoryAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/paitent/search_appointmentHistory.jsp"
+        redirect="true" />
+    </action>
+    <action
+      attribute="search_appointmentHistoryForm"
+      input="/paitent/search_appointmentHistory.jsp"
+      name="search_appointmentHistoryForm"
+      path="/search_appointmentHistory"
+      scope="request"
+      type="com.sanjivni.struts.action.Search_appointmentHistoryAction"
+      cancellable="true">
+      <forward
+        name="success"
+        path="/paitent/DisplayTag_searchAppointmentHistory.jsp"
+        redirect="true" />
+    </action>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+  </action-mappings>
+
+  <message-resources parameter="com.sanjivni.struts.ApplicationResources" />
+</struts-config>
+

@@ -1,0 +1,195 @@
+/* ### GENERAL ### */
+* { margin: 0px; padding: 0px; }
+body { 
+ top repeat-x #fff; font:12px Arial, Helvetica, sans-serif; 
+color:#504f4f; padding:0px; margin:0px;}
+
+/* ### GLOBAL CLASSES ### */
+.clear { clear: both; margin:0px; padding:0px; }
+
+a{ color:#6db51c}
+a:hover{ text-decoration:none;}
+
+
+/* ### WRAPPER ### */
+#wrapper { position: relative; display: block; width: 100%; min-height: 100%;}
+
+/* ### MAIN CONTAINER ### */
+#mainCntr {width:100%;}
+
+	/* ### HEADER CONTAINER ### */
+	#headerCntr { position: relative; width: 980px; height:97px; margin:0 auto;}
+	#headerCntr h1 { padding:28px 0px 33px 0px ;overflow: hidden; float:left;}
+	#headerCntr h1 a { display: block; width: 169px; height:36px; overflow: hidden; text-indent: -9999px; background: url(../images/logo.jpg) top left no-repeat; }
+	
+		/* ### MENU CONTAINER ### */	
+		#menuCntr {overflow:hidden; width:630px; height:82px; float:right;}	
+		#menuCntr ul{padding:0px 0px 0px 0px;}	
+		#menuCntr li{ float:left; list-style:none;}	
+		#menuCntr ul li a { padding:35px 13px 0px 13px; float:left; color: #d7dbcd; text-decoration:none; font-size:18px; font-weight: normal; cursor:pointer;background: url(../images/menu_line.jpg) right 7px no-repeat; }
+		#menuCntr ul li a span {color: #fff; display:block; text-decoration:none; font-size:12px; font-weight: normal;}
+		#menuCntr ul li a:hover {color:#a91a16; text-decoration: none;}
+		#menuCntr ul li a:hover span {color:#a91a16; text-decoration: none;}
+		#menuCntr ul li a.last{ background:none; padding-right:0px;}
+		
+			/* ### BANNER CONTAINER ### */		
+			#bannerCtrn{ width:100%; background:#fff;}
+			#bannerCtrn .center{ padding:40px 0px 40px 0px;width:980px; overflow:hidden; margin:auto;}
+			
+			/* ### BANNER BOX ### */	
+			.bannerBox{ width:950px; overflow:hidden;}	
+			.bannerBox p{ width:290px;padding:54px 10px 0px 60px; float:left; color:#7a7b7a; font-size:20px; line-height:24px; font-family:Lucida Sans unicode,Arial, Helvetica, sans-serif; font-weight:normal;}
+			.bannerBox img{ float:left;border: solid 3px #27619c;}
+			.privius{ margin-top:100px;text-indent: -9900px; height:44px; float:left;  width:44px;background:url(../images/privius_img.jpg)  0px 0px no-repeat;cursor:pointer;}
+			.next{ margin-top:100px;height:44px;text-indent: -9999px; float: right; width:44px;background:url(../images/next_img.jpg)  right top no-repeat; cursor:pointer;}
+			
+		/* ### HAEDING BOX ### */
+		.headingBox { width:980px; height:145px; margin: 0 auto;}
+		.headingBox h1 { padding-top:52px; font-size: 36px; color: #797a79; font-family:Lucida Sans Unicode; font-weight: normal; }
+		.headingBox .image1{ padding-top:19px; float:right;}
+		.headingBox .image2{ padding-top:18px; float:right;}
+			
+		/* ### CONTENT CONTAINER ### */
+		#contentCntr { width:100%; background:url(../images/content_bg.jpg) repeat-x top;}
+		#contentCntr .center {overflow: hidden; width: 980px; margin:0 auto;}
+	
+	
+		/* ### LEFT CONTAINER ### */
+		#leftCntr{ width:668px; float:left; overflow:hidden;}	
+	
+		/* ### TEMPLATE BOX ### */
+		.templateBox{ padding:48px 26px 40px 0px; float:left; width:306px; overflow:hidden; border-bottom:solid 1px #ededed;border-right:solid 1px #ededed;}
+		.templateBox h2{ padding-bottom:25px;font-size:22px; font-weight: bold; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif;  color:#030000;}
+		.templateBox img{ border: solid 3px #ebecee;}
+		.templateBox p{padding:27px 0px 0px 0px;color:#504f4f; line-height:18px;}
+		.templateBox a{ padding-left:25px; height:17px; text-decoration:none; color:#343333; font-size:12px; float:right; font-weight:bold; color:#5698de;background:url(../images/airow.jpg) left top no-repeat; }
+		.templateBox a:hover{ text-decoration:underline;}
+		
+		/* ### AMANDED BOX ### */
+		.amandedBox{ padding:48px 0px 40px 25px; float:left; width:306px; overflow:hidden; border-bottom:solid 1px #ededed;}
+		.amandedBox h2{ padding-bottom:25px;font-size:22px; font-weight: bold; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif;  color:#030000;}
+		.amandedBox img{ border: solid 3px #ebecee;}
+		.amandedBox p{padding:27px 0px 0px 0px;color:#504f4f; line-height:18px;}
+		.amandedBox a{ padding-left:25px; height:17px; text-decoration:none; color:#343333; font-size:12px; float:right; font-weight:bold; color:#5698de;background:url(../images/airow.jpg) left top no-repeat; }
+		.amandedBox a:hover{ text-decoration:underline;}
+		
+		/* ### JQUERY BOX ### */
+		.jqueryBox{ padding:43px 26px 40px 0px; float:left; width:306px; overflow:hidden; border-right:solid 1px #ededed;}
+		.jqueryBox h2{ padding-bottom:25px;font-size:22px; font-weight: bold; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif;  color:#030000;}
+		.jqueryBox img{ border: solid 3px #ebecee;}
+		.jqueryBox p{padding:27px 0px 0px 0px;color:#504f4f; line-height:18px;}
+		.jqueryBox a{ padding-left:25px; height:17px; text-decoration:none; color:#343333; font-size:12px; float:right; font-weight:bold; color:#5698de;background:url(../images/airow.jpg) left top no-repeat; }
+		.jqueryBox a:hover{ text-decoration:underline;}
+		
+		/* ### PSD BOX ### */
+		.psdBox{ padding:48px 0px 40px 25px; float:left; width:306px; overflow:hidden;}
+		.psdBox h2{ padding-bottom:25px;font-size:22px; font-weight: bold; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif;  color:#030000;}
+		.psdBox img{ border: solid 3px #ebecee;}
+		.psdBox p{padding:27px 0px 0px 0px;color:#504f4f; line-height:18px;}
+		.psdBox a{ padding-left:25px; height:17px; text-decoration:none; color:#343333; font-size:12px; float:right; font-weight:bold; color:#5698de; background:url(../images/airow.jpg) left top no-repeat; }
+		.psdBox a:hover{ text-decoration:underline;}
+		
+		/* ### ABOUT BOX ### */
+		.aboutBox{ padding:25px 26px 70px 0px; float:left; width:642px; overflow:hidden;}
+		.aboutBox h2{ padding:22px 0px 11px 69px;font-size:22px; font-weight: bold; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif; border-bottom: solid 1px #ededed; color:#030000; background:url(../images/about_icon1.jpg) left top no-repeat;}
+		.aboutBox .heading{ padding:22px 0px 11px 69px;font-size:22px; font-weight: bold; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif; border-bottom: solid 1px #ededed; color:#030000; background:url(../images/about_icon2.jpg) left top no-repeat;}
+		.aboutBox img{ margin:27px 24px 0px 0px; float:left; border: solid 3px #ebecee;}
+		.aboutBox p{ padding-top:21px;color:#504f4f; line-height:18px;}
+		.aboutBox .middle{ padding-bottom:39px;}
+		
+		/* ### TEXT BOX ### */
+		.textBox{ padding:25px 26px 0px 0px; float:left; width:642px; overflow:hidden;}
+		.textBox h2{ padding:22px 0px 11px 69px;font-size:22px; font-weight: bold; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif; border-bottom: solid 1px #ededed; color:#030000; background:url(../images/servcie_icon1.jpg) left top no-repeat;}
+		.textBox .heading1{ padding:22px 0px 11px 69px;font-size:22px; font-weight: bold; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif; border-bottom: solid 1px #ededed; color:#030000; background:url(../images/portfolio_icon1.jpg) left top no-repeat;}
+		.textBox .heading2{ padding:22px 0px 11px 69px;font-size:22px; font-weight: bold; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif; border-bottom: solid 1px #ededed; color:#030000; background:url(../images/contact_icon1.jpg) left top no-repeat;}
+		
+		.textBox p{ padding-top:21px;color:#504f4f; line-height:18px;}
+		
+		/* ### SERVICE BOX ### */
+		.serviceBox{ padding:45px 26px 20px 0px; float:left; width:642px; overflow:hidden;}
+		.serviceBox h2{ padding-bottom:11px; font-size:22px; font-weight: bold; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif; border-bottom: solid 1px #ededed; color:#030000;}
+		.serviceBox h3{ font-size:18px; font-weight: normal; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif;}
+		.service{ padding:31px 0px 40px 0px ; width:642px; border-bottom: solid 1px #ededed; color:#030000;}
+		.serviceBox img{ padding:27px 57px 60px 0px; float:left;}
+		.serviceBox p{ padding-top:21px;color:#504f4f; line-height:18px;}
+		.serviceBox a{ margin: 22px 0px 0px 135px; display: block; padding-left:25px; height:17px; text-decoration:none; color:#343333; font-size:12px; font-weight:bold; color:#5698de; background:url(../images/airow.jpg) left top no-repeat; }
+		.serviceBox a:hover{ text-decoration:underline;}
+		.serviceBox .last{ border:none;}
+		
+		/* ### PORTFOLIO BOX ### */
+		.portfolioBox{ padding:45px 26px 20px 0px; float:left; width:642px; overflow:hidden;}
+		.portfolioBox h2{ padding-bottom:11px; font-size:22px; font-weight: bold; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif; border-bottom: solid 1px #ededed; color:#030000;}
+		.portfolioBox h3{ padding-top:30px; font-size:18px; font-weight: normal; font-family:Lucida Sans unicode, Arial, Helvetica, sans-serif;}
+		.portfolio{ padding-bottom:40px; width:642px; border-bottom: solid 1px #ededed; color:#030000;}
+		.portfolio img{ margin:34px 32px 0px 0px; float:left; border: solid 3px #ebecee;}
+		.portfolioBox p{ padding-top:21px;color:#504f4f; line-height:18px;}
+		.portfolioBox a{ margin: 22px 0px 0px 218px; display: block; padding-left:25px; height:17px; text-decoration:none; color:#343333; font-size:12px; font-weight:bold; color:#5698de; background:url(../images/airow.jpg) left top no-repeat; }
+		.portfolioBox a:hover{ text-decoration:underline;}
+		.portfolioBox .last{ border:none;}
+		
+		/* ### CONTACT INNER BOX ### */
+		.contactinnerBox{ padding:20px 0px 75px 10px; width:642px; float:left; overflow:hidden;}
+		.contactinnerBox input.filed1{ padding: 8px 5px 5px 5px;  width:535px; height:19px; border:none; background:url(../images/input_bg.jpg) 0px 0px  no-repeat;}
+		.contactinnerBox label{ padding-top:17px; width:545px; height:24px; display:block; font:12px Arial, Helvetica, sans-serif; color:#686868; text-align: left; vertical-align:top; font-weight:bold;}
+		.contactinnerBox textarea{ padding:5px 5px 5px 7px; width:533px; height:132px; border:none;background:url(../images/textarea_bg.jpg) 0px 0px no-repeat; }
+		.contactinnerBox input.button{ margin:24px 0px 0px 0px; float:left; background:url(../images/send.jpg) 0px 0px no-repeat; width:149px; height:33px; border:none; cursor:pointer; }
+	
+	
+		
+		/* ### TWITTER BOX ### */
+		.twitterBox{width:100px; overflow:hidden;}
+		.twitterBox img{ float:left; padding-right:10px;}
+		
+		/* ### RIGHT CONTAINER ### */
+		#rightCntr{ padding-top:48px;width:267px; float:right; overflow:hidden;}
+		#rightCntr h2{ padding: 0px 0px 25px 48px;font-size:24px; font-weight: bold; font-family:Lucida Sans,Arial, Helvetica, sans-serif;color:#000;background:url(../images/icon1.jpg) left top no-repeat;}
+		
+		/* ### NEWS BOX ### */
+		.newsBox{width:247px; overflow:hidden; border: solid 10px #ebecee;}
+		.newsBox p{ margin:0px 16px;padding:23px 0 17px 0px;font-size:12px; color:#504f4f;}
+		.newsBox span{ padding:19px 0 0 18px; display:block; font-weight:bold; font-size:12px;color:#504f4f; }
+		.newsBox .border{ border-bottom: solid 1px #ededed;}
+		
+		/* ### CONTACT BOX ### */
+		.contactBox{width:267px; margin-top:29px; overflow:hidden;background:url(../images/contact_bg.jpg) left top repeat-y;}
+		.contactBox .top{width:267px; overflow:hidden;background:url(../images/contact_top.jpg) left top no-repeat;}
+		.contactBox .bottom{ padding:30px 33px 40px 33px;width:201px; overflow:hidden;background:url(../images/contact_bottom.jpg) left bottom no-repeat;}
+		.contactBox h3{ padding: 0px 0px 0px 63px;font-size:24px; font-weight: bold; font-family:Lucida Sans,Arial, Helvetica, sans-serif;color:#000;background:url(../images/icon2.jpg) left top no-repeat;}
+		.contactBox address{ padding-top:19px;font-size:12px; font-weight:bold; font-style:normal; line-height:24px; color:#959595;}
+		
+		
+		/* ### BOTTOM CONTAINER ### */
+		#bottomtCntr{ width:100%; background:url(../images/bottomconten_bg.jpg) #0e0e0e left top repeat-x;}
+		#bottomtCntrinner{ padding:30px 0px 20px 0px ; width:980px; overflow:hidden; margin: 0 auto;}
+		
+		/* ### SOCIAL BOX ### */
+		.socialBox{ padding-right:22px;float:left; width:450px; overflow:hidden;}
+		.socialBox .firstimg{ margin:13px 11px 0px 0px; float:left; border: solid 4px #242424; }
+		.socialBox .secimg{ margin-top:13px; float: right;}
+		
+		
+		/* ### OURWEB BOX ### */
+		.ourwebBox{ padding-left:34px;float:left; width:220px; overflow:hidden;}
+		.ourwebBox h3{ padding:10px 0px 0px 51px; height:23px; font-weight:normal; font-size:15px; font-family:Arial, Helvetica, sans-serif; color:#969595;background:url(../images/icon3.jpg) left top  no-repeat;}
+		.ourwebBox ul{ margin:0px;}
+		.ourwebBox ul li{ list-style:none;color:#6e6d6d; line-height:30px; border-bottom:solid #313131 1px;}
+		.ourwebBox ul a{ color:#6e6d6d; text-decoration: none; }
+		.ourwebBox ul a:hover { text-decoration: underline; }
+		.ourwebBox .icon{ padding:10px 0px 0px 51px; height:25px; font-weight:normal; font-size:15px; font-family:Arial, Helvetica, sans-serif; color:#969595;background:url(../images/icon4.jpg) left top  no-repeat;}
+		.ourwebBox ul li.last{ border:none;}
+		
+	
+		
+	/* ### FOOTER CONTAINER ### */
+	#footerCntr { width:100%; height:76px; overflow: hidden; background:#0e0e0e;}
+		
+		/* ### FOOTER BOX ### */
+		.footerBox { padding-top:20px; height:46px;width:980px; margin: 0 auto; border-top: solid 1px #313131;}
+		.footerBox p{color:#6e6d6d; font-size:12px; line-height:18px; float: right;}
+		.footerBox .footermenu { padding:0px 0px 0px 0px; width:450px; float: left;}
+		.footerBox .footermenu  ul li{ list-style:none; float:left; padding:0px 17px 0px 17px; background:url(../images/footer_line.jpg) left 5px no-repeat;}
+		.footerBox .footermenu  ul li a{ font-size:12px; color:#6e6d6d; text-decoration: none;}
+		.footerBox .footermenu  ul li a:hover{ text-decoration: underline; color:#a91a16;}
+		.footerBox .footermenu  ul li.first{ background:none; padding-left:0px;}
+	
+			
